@@ -11,10 +11,12 @@ public class rangeSum {
 
    public static void main(String[] args) {
 
-		System.out.println("limites: "+args[0]+" "+args[1]);
-
-      
-         System.out.println("numero actual es:" );
+	int i=Integer.parseInt(args[0].toString());
+			int k=Integer.parseInt(args[1].toString());
+					i=i+1;
+         				while(i<k){
+                   			System.out.println(i);
+                  			 i=i+1;
       
    }
 
